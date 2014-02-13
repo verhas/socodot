@@ -1,0 +1,4 @@
+#parse("macro/testmacro.vm")
+$log.debug("hello, I am here")
+$jslog.invokeFunction("debug","I am javascript")
+$rslog.invokeFunction("debug","I am resource")
