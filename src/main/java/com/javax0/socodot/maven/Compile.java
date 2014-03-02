@@ -17,7 +17,7 @@ public class Compile extends AbstractMojo {
 	@Parameter(alias = "configurationFile", defaultValue = "")
 	private String configurationFile;
 
-	final Log LOG = getLog();
+	private final Log LOG = getLog();
 
 	@Override
 	public void execute() throws MojoExecutionException, MojoFailureException {

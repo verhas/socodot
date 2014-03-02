@@ -13,11 +13,11 @@ import com.javax0.socodot.config.Configuration;
 import com.javax0.socodot.config.SetDirectory;
 import com.javax0.socodot.config.SetFile;
 
-public class ContextCalculator {
+class ContextCalculator {
 	private static final Logger LOG = LoggerFactory
 			.getLogger(ContextCalculator.class);
 
-	final Configuration configuration;
+	private final Configuration configuration;
 
 	public ContextCalculator(Configuration configuration) {
 		super();

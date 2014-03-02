@@ -17,7 +17,7 @@ public class ObjectBuilder {
         this.pluginParams = contextBuilder.getPluginParams();
     }
 
-    public void as(String name) throws ClassNotFoundException, InstantiationException, IllegalAccessException, NoSuchMethodException, IllegalArgumentException,
+    public void as(String name) throws ClassNotFoundException, InstantiationException, IllegalAccessException, IllegalArgumentException,
                     InvocationTargetException {
         Object pluginObject;
         try {

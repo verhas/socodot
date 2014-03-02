@@ -6,13 +6,13 @@ import java.util.List;
 import java.util.Map;
 
 public class Configuration {
-	private final List<String> fileExcludePatterns = new LinkedList<String>();
+	private final List<String> fileExcludePatterns = new LinkedList<>();
 	private static final String DEFAULT_SOURCE_DIRECTORY_NAME = "src/wiki";
 	private static final String DEFAULT_TARGET_DIRECTORY_NAME = "target";
 	private String sourceDirectoryName = DEFAULT_SOURCE_DIRECTORY_NAME;
 	private String targetDirectoryName = DEFAULT_TARGET_DIRECTORY_NAME;
 	private int sourceDirectoryNamePrefixLength;
-	private final List<String> directoryExcludePatterns = new LinkedList<String>();
+	private final List<String> directoryExcludePatterns = new LinkedList<>();
 	private File configurationFile;
 	private Map<String, String> pluginParams = null;
 	
@@ -28,7 +28,7 @@ public class Configuration {
 		return targetDirectoryName;
 	}
 
-	public int getSourceDirectoryNamePrefixLength() {
+	int getSourceDirectoryNamePrefixLength() {
 		return sourceDirectoryNamePrefixLength;
 	}
 
@@ -45,8 +45,8 @@ public class Configuration {
 		this.targetDirectoryName = targetDirectoryName;
 	}
 
-	public void setSourceDirectoryNamePrefixLength(
-			int sourceDirectoryNamePrefixLength) {
+	void setSourceDirectoryNamePrefixLength(
+            int sourceDirectoryNamePrefixLength) {
 		this.sourceDirectoryNamePrefixLength = sourceDirectoryNamePrefixLength;
 	}
 

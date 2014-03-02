@@ -5,7 +5,7 @@ import java.io.IOException;
 
 import org.apache.commons.io.FileUtils;
 
-public class FileWriter {
+class FileWriter {
 	public void write(File file, String content, String encoding)
 			throws IOException {
 		FileUtils.forceMkdir(file.getParentFile());

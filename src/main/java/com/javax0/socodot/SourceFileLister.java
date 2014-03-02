@@ -9,7 +9,7 @@ import org.apache.commons.io.filefilter.WildcardFileFilter;
 
 import com.javax0.socodot.config.Configuration;
 
-public class SourceFileLister {
+class SourceFileLister {
 	private final Configuration configuration;
 	
 	public SourceFileLister(Configuration configuration) {
