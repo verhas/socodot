@@ -40,6 +40,6 @@ $register.script("resourcelog.js").as("rslog")
 declares that the documentation files are in the source directory `src/wiki`, the compiled documentation is to be put into `target/wiki` and the directory `src/wiki/macro` contains macro files that are not to be directly processed. The files `*.js` are also to be exluded from the documentation since they contain JavaScript and not documentation. The last three lines register a singleton and two scripts with the names `log`, `jslog` and `rslog` so the documentation files may refer to them as `$log`, `$jslog` and `$rslog`.
 
 
-For more information read the documentation of the project.
+For more information read the documentation of the project. (Not available yet, since we are pre-release.)
 
 
